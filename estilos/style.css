@@ -5,22 +5,37 @@
     padding: 0px;
 }
 html, body{
-    background-color: black;
-}
-main{
-    position: absolute;
     width: 100vw;
     height: 100vh;
-    background: url(../imagens/fundo-madeira.jpg) center no-repeat fixed;
-    background-size: cover;
+    background-color: black;
 }
-#telefone{
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main{
     position: relative;
+    height: 100vh;
+}
+section#telefone{
+    position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
     width: 311px;
     height: 627px;
-    background: url(../imagens/frame-iphone.png) center no-repeat fixed;
-    background-size: cover;
+    background: url(../imagens/frame-iphone.png) no-repeat fixed center;
+    background-size: contain;
+}
+iframe{
+    position: absolute;
+    top:13%;
+    left: 7.5%;
+
+    width: 265px;
+    height: 470px;
+    border: none;
 }
