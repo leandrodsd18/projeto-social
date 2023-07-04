@@ -30,7 +30,7 @@ section#telefone{
     background: url(../imagens/frame-iphone.png) no-repeat fixed center;
     background-size: contain;
 }
-iframe#tela{
+iframe{
     position: absolute;
     top:13%;
     left: 7.5%;
